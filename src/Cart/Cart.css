@@ -1,0 +1,11 @@
+.cart{
+    margin: 4px;
+    padding: 4px;
+}
+.cart span{
+    float: right;
+    margin-right: 150px;
+}
+.cart a{
+    text-decoration: none;
+}

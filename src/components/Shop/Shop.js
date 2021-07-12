@@ -15,14 +15,12 @@ const Shop = () => {
     }
     return (
         <div className="shop-container">
-            <div className="product-container"> 
+            <div className="product-container">
                 {
                   products.map(product => <Product handleProduct={handleProduct} product={product}></Product>)
                 }
             </div>       
             <div className="cart-container">
-                <h2>This is cart container</h2>
-                
                 <Cart cart={cart}></Cart>
             </div>
         </div>
